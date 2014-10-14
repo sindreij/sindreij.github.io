@@ -1,0 +1,68 @@
+body {
+    background-color: #f2f2f2;
+    background: url('pattern.png') repeat;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    line-height: 23px;
+}
+
+p {
+
+}
+
+.mainbox h1 {
+    font-family: 'Dosis', sans-serif;
+
+    font-weight: 800;
+    font-size: 25px;
+}
+
+h2 {
+    font-size: 20px;
+    font-family: 'Dosis', sans-serif;
+
+    font-weight: 800;
+}
+
+.sidebar h1 {
+    font-size: 30px;
+    font-family: 'Dosis', sans-serif;
+
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 46px;
+}
+
+.mainbox {
+    background-color: #fff;
+    border: 2px solid #e1e1e1;
+    margin-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 5px;
+}
+
+.sidebar {
+    margin-top: 15px;
+}
+
+.sidebar img {
+    max-width: 100%;
+    width: 200px;
+    border-radius: 20%;
+}
+
+.social a {
+    font-size: 23px;
+    color: #444;
+    margin-left: 15px;
+}
+
+.social a:hover {
+    text-decoration: none;
+    color: #000;
+}
+
+.mainbox ul {
+    list-style-type: none;
+    padding-left: 0;
+}
