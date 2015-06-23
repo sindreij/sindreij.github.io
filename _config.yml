@@ -1,0 +1,18 @@
+# Site settings
+title: Sindre Johansen
+email: sindre@sindrejohansen.no
+description: > # this means to ignore newlines until "baseurl:"
+  Personal website for Sindre Johansen.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://www.sindrejohansen.no" # the base hostname & protocol for your site
+twitter_username: sindreij
+github_username:  sindreij
+
+# Build settings
+markdown: kramdown
+
+permalink: /blog/:year/:month/:day/:title/
+
+exclude:
+- sync.sh
+- README.md
